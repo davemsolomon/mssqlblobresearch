@@ -36,7 +36,7 @@ ID          BinaryData
 
 #########################################POWERSHELL TO DOwNLOAD TIF###########################
 $outputPath = "C:\tmp\smile_retrieved.tif"
-$connectionString = "Server=localhost\SQLEXPRESS;Database=YourDatabaseName;Integrated Security=True;"
+$connectionString = "Server=localhost\SQLEXPRESS;Database=master;Integrated Security=True;"
 
 $connection = New-Object System.Data.SqlClient.SqlConnection($connectionString)
 $connection.Open()
